@@ -5,6 +5,7 @@ institute: "JJ Holding AB"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
+    css: ["../resources/style.css"]
     nature:
       ratio: 16:9
       highlightLines: true
@@ -14,8 +15,17 @@ output:
 
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
+<style>
+body {
+    font-family:'Samsung Sharp Sans Regular';
+    font-weight:normal;
+    font-size:42px
+}    
 
-First slide
+</style>
+
+
+# First slide
 
 
 ```{r setup, include=FALSE}
